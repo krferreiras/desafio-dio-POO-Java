@@ -46,11 +46,11 @@ public class Bootcamp {
         this.devsInscritos = devsInscritos;
     }
 
-    public Set<br.com.krferreiras.desafio.dominio.entities.Conteudo> getConteudos() {
+    public Set<Conteudo> getConteudos() {
         return conteudos;
     }
 
-    public void setConteudos(Set<br.com.krferreiras.desafio.dominio.entities.Conteudo> conteudos) {
+    public void setConteudos(Set<Conteudo> conteudos) {
         this.conteudos = conteudos;
     }
 
