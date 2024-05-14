@@ -1,5 +1,6 @@
 package br.com.krferreiras.desafio.dominio.application;
 
+import br.com.krferreiras.desafio.dominio.Conteudo;
 import br.com.krferreiras.desafio.dominio.Curso;
 import br.com.krferreiras.desafio.dominio.Mentoria;
 
@@ -28,5 +29,6 @@ public class Program {
         System.out.println(curso1);
         System.out.println(curso2);
         System.out.println(mentoria1);
+
     }
 }
