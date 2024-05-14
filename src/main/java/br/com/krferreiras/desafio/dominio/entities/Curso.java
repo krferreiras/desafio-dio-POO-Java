@@ -1,4 +1,4 @@
-package br.com.krferreiras.desafio.dominio;
+package br.com.krferreiras.desafio.dominio.entities;
 
 public class Curso extends Conteudo {
 

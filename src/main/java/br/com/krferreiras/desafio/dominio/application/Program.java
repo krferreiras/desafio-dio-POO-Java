@@ -1,8 +1,7 @@
 package br.com.krferreiras.desafio.dominio.application;
 
-import br.com.krferreiras.desafio.dominio.Conteudo;
-import br.com.krferreiras.desafio.dominio.Curso;
-import br.com.krferreiras.desafio.dominio.Mentoria;
+import br.com.krferreiras.desafio.dominio.entities.Curso;
+import br.com.krferreiras.desafio.dominio.entities.Mentoria;
 
 import java.time.LocalDate;
 
