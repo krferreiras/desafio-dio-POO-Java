@@ -1,6 +1,7 @@
 package br.com.krferreiras.desafio.dominio.entities;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class Mentoria extends Conteudo {
 
@@ -25,10 +26,8 @@ public class Mentoria extends Conteudo {
 
     @Override
     public String toString() {
-        return "Mentoria{" +
-                "titulo='" + getTitulo() + '\'' +
-                ", descricao='" + getDescricao() + '\'' +
-                ", data=" + data +
-                '}';
+        return "|Mentoria: "+ getTitulo()
+                + " | Descrição: " + getDescricao()
+                + " | Data: " + data.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")) +"|\n";
     }
 }
